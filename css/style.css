@@ -1,0 +1,163 @@
+body {
+  margin: 0px;
+  color: white;
+}
+.header {
+  background-image: url("../img/cover4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.section_one {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.left_side {
+  margin-top: 70px;
+  margin-bottom: 160px;
+}
+.heading_title {
+  font-size: 60px;
+  background: black;
+  opacity: 0.7;
+  padding: 1px 152px;
+  border-radius: 13px;
+}
+.header_content {
+  background: black;
+  opacity: 0.7;
+  padding: 1px 30px;
+  border-radius: 13px;
+}
+.cv_btn {
+  padding: 20px 32px;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  background: #2196f3;
+  border-color: #2196f3;
+  color: white;
+}
+.ul_menu {
+  display: flex;
+  justify-content: start;
+  margin-top: 0px;
+  padding-top: 30px;
+  list-style-type: none;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.ul_menu li {
+  cursor: pointer;
+  background: #a59a81;
+  padding: 7px 26px 7px 26px;
+  border-radius: 25px;
+}
+li.home {
+  background-color: black;
+}
+li {
+  margin: 0px 55px;
+}
+.activity {
+  background: #c3b895;
+  padding-bottom: 62px;
+}
+.activity_title_div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.activity_title {
+  display: flex;
+  color: black;
+  margin: 40px;
+  font-size: 26px;
+}
+.activity_img {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.photos {
+  width: 170px;
+  height: 170px;
+  border-radius: 131px;
+}
+.img_one,
+.img_two,
+.img_three {
+  padding: 0px 20px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  margin: 102px 411px;
+  background: lightblue;
+  padding: 10px;
+  border-radius: 14px;
+  border-bottom: 10px solid black;
+  box-shadow: 10px 14px 9px lightgray;
+}
+.card_img {
+  width: 200px;
+  border-radius: 14px;
+}
+.owner_img {
+  margin-right: 16px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+}
+.p_design {
+  margin-top: 10px;
+  margin-bottom: 6px;
+  color: white;
+}
+p {
+  font-size: 18px;
+  color: black;
+}
+.black {
+  color: black;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.card_title {
+  font-size: 22px;
+  text-align: center;
+  color: black;
+}
+@media screen and (max-width: 900px) {
+  .card {
+    margin: 101px 10px;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  li {
+    margin: 0px 14px;
+  }
+  .activity_img {
+    display: block;
+  }
+  .left_side {
+    margin: 0px 60px;
+  }
+  .card {
+    margin: 101px 10px;
+  }
+  .heading_title {
+    font-size: 31px;
+  }
+}
